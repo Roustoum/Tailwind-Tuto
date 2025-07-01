@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TUTO TAILWINDCSS</title>
+</head>
+<body class="text-gray-600 font-nunito">
+    <div>
+        <div> <!-- navigation deb -->
+            <nav> 
+                <div>
+                    <h1 class="font-thin uppercase p-4 border-b border-gray-100">
+                        <a href="/">food ninja</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li class="text-gray-700 font-light">
+                        <a href="#">Voix</a>
+                    </li>
+                    <li class="text-gray-700 font-bold">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav> 
+        </div>  <!-- navigation fin -->
+
+        <main class="px-16 py-6">
+            <div class="text-primary flex justify-end space-x-3">
+                <a href="#" class="bg-blue-500">Login</a>
+                <a href="#" class="bg-blue-500">SignUp</a>
+            </div>
+            <header>
+                <h2 class="text-gray-700 text-6xl font-semibold mt-12">recipes</h2>
+                <h3 class="text-2xl font-semibold">For ninja</h3>
+            </header>
+
+            <div>
+                <h4 class="font-extrabold pb-2 border-b border-gray-200">latest recipes</h4>
+                
+                <div class="mt-8">
+                    <!-- card ici -->
+                    <div>
+                        <img src="img/stew.jpg" alt="not found"/>
+                        <div>
+                            <span>5 beans chill stew</span>
+                            <span>Recipe By Mario</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="font-extrabold font-mamoth mt-12 pb-2 border-b border-gray-200">most popular</h4>
+                <div class="mt-8">
+                    <!-- card ici -->
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="bg-secondary-100">
+                        Load More
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="flex flex-col justify-around bg-cyan-600 h-screen">
+            <div class="text-5xl max-w-32 max-h-32 bg-amber-400 rounded-4xl flex justify-center items-center grow">A</div>
+            <div class="text-5xl max-w-32 max-h-32 bg-amber-400 rounded-4xl flex justify-center items-center grow">A</div>
+            <div class="text-5xl max-w-32 max-h-32 bg-amber-400 rounded-4xl flex justify-center items-center grow">A</div>
+        </div>
+
+        <div class="flex m-2 space-x-2 space-y-2 space-x-reverse flex-wrap flex-row-reverse">
+            <div class="text-5xl flex items-center justify-center p-6 min-w-30 bg-amber-500 rounded-3xl grow">A</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+            <div class="text-5xl flex items-center justify-center p-6 bg-amber-500 rounded-3xl grow">B</div>
+        </div>
+    </div>
+</body>
+</html>
