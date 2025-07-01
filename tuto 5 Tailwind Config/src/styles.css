@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme{
+    --color-test: #ee00ff;
+    --color-yoyo: #559911;
+}
+
+@config "../tailwind.config.js"
