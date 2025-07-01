@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Noto+Kufi+Arabic:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: 'yoyo';
+    src: url('/fonts/EduNSWACTHandPre-Bold.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'yoyo';
+    src: url('/fonts/Aptos.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@import "tailwindcss";
+
+@theme{
+    --color-test: #ee00ff;
+    --color-yoyo: #559911;
+    --text-best:10rem;
+    --font-toto:'yoyo';
+    --font-nunito:'Nunito';
+    --breakpoint-test :250px;
+}
+
+@config "../tailwind.config.js"
